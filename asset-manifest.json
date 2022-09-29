@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/texture-project/static/css/main.4ea24607.css",
-    "main.js": "/texture-project/static/js/main.178923fc.js",
+    "main.js": "/texture-project/static/js/main.64120aed.js",
     "static/js/478.86f4b82f.chunk.js": "/texture-project/static/js/478.86f4b82f.chunk.js",
     "static/js/562.7056b2a8.chunk.js": "/texture-project/static/js/562.7056b2a8.chunk.js",
     "static/js/240.26c6ebe4.chunk.js": "/texture-project/static/js/240.26c6ebe4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
     "index.html": "/texture-project/index.html",
     "main.4ea24607.css.map": "/texture-project/static/css/main.4ea24607.css.map",
-    "main.178923fc.js.map": "/texture-project/static/js/main.178923fc.js.map",
+    "main.64120aed.js.map": "/texture-project/static/js/main.64120aed.js.map",
     "478.86f4b82f.chunk.js.map": "/texture-project/static/js/478.86f4b82f.chunk.js.map",
     "562.7056b2a8.chunk.js.map": "/texture-project/static/js/562.7056b2a8.chunk.js.map",
     "240.26c6ebe4.chunk.js.map": "/texture-project/static/js/240.26c6ebe4.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.4ea24607.css",
-    "static/js/main.178923fc.js"
+    "static/js/main.64120aed.js"
   ]
 }
