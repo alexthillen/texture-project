@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/813.2cbc90b9.chunk.js","mappings":"uLAEe,SAASA,EAASC,GAC/B,OACE,qCAEH,C","sources":["pages/OfferTwo.js"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function OfferTwo(props) {\r\n  return (\r\n    <div>OfferTwo</div>\r\n  )\r\n}\r\n"],"names":["OfferTwo","props"],"sourceRoot":""}

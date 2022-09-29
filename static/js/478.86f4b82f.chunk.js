@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktexture_project=self.webpackChunktexture_project||[]).push([[478],{478:function(e,t,n){n.r(t),n.d(t,{default:function(){return u}});n(791);var r=n(184);function u(e){return(0,r.jsx)("div",{children:"Index"})}}}]);
+//# sourceMappingURL=478.86f4b82f.chunk.js.map
