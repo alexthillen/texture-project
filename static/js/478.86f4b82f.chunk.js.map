@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/478.86f4b82f.chunk.js","mappings":"uLAEe,SAASA,EAAMC,GAC5B,OACE,kCAEH,C","sources":["pages/Index.js"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function Index(props) {\r\n  return (\r\n    <div>Index</div>\r\n  )\r\n}\r\n"],"names":["Index","props"],"sourceRoot":""}

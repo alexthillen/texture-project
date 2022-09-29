@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktexture_project=self.webpackChunktexture_project||[]).push([[813],{853:function(e,t,r){r.r(t),r.d(t,{default:function(){return n}});r(791);var u=r(184);function n(e){return(0,u.jsx)("div",{children:"OfferTwo"})}}}]);
-//# sourceMappingURL=813.2cbc90b9.chunk.js.map
