@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/react-gh-pages/static/js/main.5c265ccc.js",
-    "static/js/787.a158d550.chunk.js": "/react-gh-pages/static/js/787.a158d550.chunk.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.5c265ccc.js.map": "/react-gh-pages/static/js/main.5c265ccc.js.map",
-    "787.a158d550.chunk.js.map": "/react-gh-pages/static/js/787.a158d550.chunk.js.map"
+    "main.css": "/texture-project/static/css/main.073c9b0a.css",
+    "main.js": "/texture-project/static/js/main.8f01b6b1.js",
+    "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
+    "static/media/logo.svg": "/texture-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/texture-project/index.html",
+    "main.073c9b0a.css.map": "/texture-project/static/css/main.073c9b0a.css.map",
+    "main.8f01b6b1.js.map": "/texture-project/static/js/main.8f01b6b1.js.map",
+    "787.a158d550.chunk.js.map": "/texture-project/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5c265ccc.js"
+    "static/js/main.8f01b6b1.js"
   ]
 }
