@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/texture-project/static/css/main.4ea24607.css",
-    "main.js": "/texture-project/static/js/main.7462893a.js",
+    "main.js": "/texture-project/static/js/main.0714d572.js",
     "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
     "index.html": "/texture-project/index.html",
     "main.4ea24607.css.map": "/texture-project/static/css/main.4ea24607.css.map",
-    "main.7462893a.js.map": "/texture-project/static/js/main.7462893a.js.map",
+    "main.0714d572.js.map": "/texture-project/static/js/main.0714d572.js.map",
     "787.a158d550.chunk.js.map": "/texture-project/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea24607.css",
-    "static/js/main.7462893a.js"
+    "static/js/main.0714d572.js"
   ]
 }
