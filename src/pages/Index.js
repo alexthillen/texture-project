@@ -1,10 +1,13 @@
 import Main from 'layout/Main'
 import React from 'react'
+import IndexBundle from 'components/Index/IndexBundle'
+
 
 export default function Index(props) {
+  console.log("props index " + props);
   return (
-    <Main title="test" description="test" 
+    <Main title="Home" description="" 
 // @ts-ignore
-    lang={props.lang}>Index</Main>
+    lang={props.lang}><IndexBundle lang={props.lang}></IndexBundle></Main>
   )
 }

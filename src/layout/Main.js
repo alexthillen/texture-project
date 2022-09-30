@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 
 // import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
-// import Footer from '../components/Template/Footer';
+import Footer from '../components/Template/Footer';
 
 
 // import SideBar from '../components/Template/SideBar';
@@ -22,7 +22,7 @@ const Main = (props) => (
         
         {props.children}
       </main>
-      {/* <Footer lang={props.lang}></Footer> */}
+      <Footer lang={props.lang}></Footer>
     </div>
   </div>
 );

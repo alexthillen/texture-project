@@ -22,8 +22,8 @@ function App() {
     <div className="App">
       <HashRouter basename='/'>
         <Routes>
-          <Route path="" element={<Navigate to="/de" />}/>
-          <Route path="/" element={<Navigate to="/de" />}/>
+          <Route path="" element={<Navigate to="/de" replace={true}/>}/>
+          <Route path="/" element={<Navigate to="/de" replace={true}/>}/>
           <Route path="/de" element={<Index lang="de" />}/>
           <Route path="/fr" element={<Index lang="fr" />}/>
           <Route path="/de/contact" element={<Contact lang="de" />}/>

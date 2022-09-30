@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Contact(props) {
   return (
-    <Main title="test" description="test" 
+    <Main title="Contact" description="" 
     // @ts-ignore
-    lang={props.lang}>Index</Main>
+    lang={props.lang}>Contact</Main>
   );
 }
