@@ -13,13 +13,15 @@ class SingleOfferedService extends Component {
 
   render() {
     return (
-      <div className={" col-md-6 align-self-stretch mb-md-3"}>
+      <div className={" col-lg-6 align-self-stretch mb-md-3"}>
         <div className="bg-light text-center h-100 d-flex flex-column align-items-center pb-3">
           <div className="my-3 ">
             <h2 className="">{this.props.heading}</h2>
           </div>
           <div className="bg-light shadow-sm"></div>
-          {this.props.children}
+          <div id="children" className="mb-3">
+            {this.props.children}
+          </div>
           <a
             className={"btn btn-sm btn-outline-secondary mt-auto d-block"}
             href={this.getOfferPath()}

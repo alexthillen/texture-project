@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import "./Teaser.scss"
 
 class Teaser extends Component {
 
@@ -39,10 +40,12 @@ class Teaser extends Component {
       return (
         <div className="teaser position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center bg-light box d-flex align-items-center">
           <div className="align-middle col-md-4 mx-auto my-5">
-            <h1 className={"display-4 fw-normal m"}>{this.renderHeading()}</h1>
+            <h1 className={"display-4 fw-normal text-shadow m"}>{this.renderHeading()}</h1>
               {this.renderButton()}
           </div>
+          
         </div>
+        
       );
   }
 }

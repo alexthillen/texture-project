@@ -1,0 +1,15 @@
+.text-shadow {
+    text-shadow: 2px 2px #00000038;;
+}
+
+.bg-teaser::before {
+    content : "";
+    background-image: url("../../static/bg-image.jpg");
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+

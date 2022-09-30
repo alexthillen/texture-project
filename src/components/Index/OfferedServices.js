@@ -3,7 +3,8 @@ import SingleOfferedService from './SingleService';
 import {fr_header2_service_01, fr_header2_service_02, de_header2_service_01, de_header2_service_02} from 'static/texts';
 import "./SingleService.scss"
 import "./OfferedServices.scss"
-import image1 from "./traduction.jpg"
+import image1 from "../../static/traduction.jpg"
+import image2 from "../../static/coaching.jpg"
 
 
 class OfferedServices extends Component {
@@ -15,10 +16,14 @@ class OfferedServices extends Component {
             <div className="d-flex row align-items-stretch m-md-1">
             <SingleOfferedService lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_01 : de_header2_service_01 }>
                 <div className='img1'>
-                    <img src={image1} alt="Traduction"></img>
+                    <img src={image1} alt="Traduction" className='w-100 h-100 rounded'></img>
                 </div>
             </SingleOfferedService>
-            <SingleOfferedService lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_02 : de_header2_service_02 }></SingleOfferedService>
+            <SingleOfferedService lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_02 : de_header2_service_02 }>
+            <div className='img1'>
+                    <img src={image2} alt="Traduction" className='w-100 h-100 rounded'></img>
+                </div>
+            </SingleOfferedService>
             </div>
         </div>
     }
