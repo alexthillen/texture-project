@@ -20,7 +20,7 @@ class SingleOfferedService extends Component {
             <h2 className="">{this.props.heading}</h2>
           </div>
           <div className="bg-light shadow-sm"></div>
-          <div id="children" className="mb-3">
+          <div id="children" className="mb-3 mt-auto">
             {this.props.children}
           </div>
           <Link

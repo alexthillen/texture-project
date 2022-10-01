@@ -10,6 +10,10 @@ import About from 'pages/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import 'react-slick/dist/react-slick.js'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import React from 'react';
 
 const { PUBLIC_URL } = process.env;
@@ -22,7 +26,7 @@ function App() {
     <div className="App">
       <HashRouter basename='/'>
         <Routes>
-          <Route path="" element={<Navigate to="/de" replace={true}/>}/>
+          <Route path="" element={<Navigate to="/fr" replace={true}/>}/>
           <Route path="/" element={<Navigate to="/de" replace={true}/>}/>
           <Route path="/de" element={<Index lang="de" />}/>
           <Route path="/fr" element={<Index lang="fr" />}/>

@@ -5,3 +5,12 @@
     background-repeat: no-repeat;
 }
 
+
+@media only screen and (max-width: 960px) {
+    .auto-margin {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
+

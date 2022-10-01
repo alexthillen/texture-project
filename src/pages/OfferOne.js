@@ -1,8 +1,28 @@
 import Teaser from "components/Template/Teaser";
 import Main from "layout/Main";
-import React from "react";
+import React, { useEffect } from "react";
+import * as text from "static/texts";
+//
+
+import logo1 from "../static/logos-clients/logo1.png";
+import logo2 from "../static/logos-clients/logo2.png";
+import Subtitle from "components/Offer/Subtitle";
+import PointForts from "components/Offer/PointForts";
+import Entretien from "components/Offer/Entretien";
+import Carousel from "components/Offer/Carousel";
+// import logo3 from "../../static/logos-clients/logo3.png";
+// import logo4 from "../../static/logos-clients/logo4.png";
+// import logo5 from "../../static/logos-clients/logo5.png";
+// import logo6 from "../../static/logos-clients/logo6.png";
+// import logo7 from "../../static/logos-clients/logo7.png";
+// import logo8 from "../../static/logos-clients/logo8.png";
+
+const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
+
 
 export default function OfferOne(props) {
+
+
   return (
     <Main
       title="Home"
@@ -13,8 +33,8 @@ export default function OfferOne(props) {
       <Teaser
         fontColor="white"
         lang={props.lang}
-        heading_fr="Traduction, correction, rédaction"
-        heading_de="" // TODO
+        heading_fr={text.fr_offer01_title}
+        heading_de={text.de_offer01_title}
         contents_fr=""
         contents_de=""
         button_fr=""
@@ -22,65 +42,38 @@ export default function OfferOne(props) {
         button_ref=""
       ></Teaser>
 
-      <div id="offer-one-main" className="d-flex">
+      <div id="offer-one-main" className="d-flex bg-light p-5 m-md-3">
         <div className="col-md-2"></div>
-        <div className="col-md-8 border-top pt-3">
-          <div id="subtitle" className="d-flex">
-            <div className="col-md-0"></div>
-            <div className="col-md-12">
-            <em className="">
-              Nous rédigeons, corrigeons, traduisons et affinons vos textes
-              (allemand, français, anglais, luxembourgeois) avec compétence et
-              efficacité.
-            </em>
-            </div>
-          </div>
-          <div className="border-top mt-3 pt-3">
-            <p>
-              Texture vous propose son expertise dans le domaine rédactionnel.
-            </p>
-          </div>
-          <div>
-            <p>Nos points forts :</p>
-            <p>
-              <ul>
-                <li>
-                  Expertise : Nous avons accumulé des années d’expérience en ce
-                  qui concerne la correction, la rédaction et de la traduction
-                  pour diverses publications avec nos clients au Luxembourg et
-                  au-delà.
-                </li>
-                <li>
-                  Multilinguisme : Nous offrons une communication et des
-                  services en luxembourgeois, allemand, français et anglais. En
-                  outre, nous travaillons en réseau avec des professionnels de
-                  différents domaines et de différentes langues pour satisfaire
-                  au mieux vos besoins.
-                </li>
-                <li>
-                  Précision : Tout travail de texte demande une certaine
-                  rigueur. Notre but est de vous fournir des textes facilement
-                  lisibles, compréhensibles et d’une qualité linguistique
-                  impeccable.
-                </li>
-              </ul>
-            </p>
-          </div>
-          <div>
-            <p><em>
-              <strong>
-                Texture vous propose un entretien gratuit pour évaluer vos
-                besoins. Demandez-nous un devis.
-              </strong>
-            </em>
-            </p>
-            <p>
-              <a href="tel:+352 691 320 556">+352 691320556</a>
-            </p>
-            <p>
-              <a href="info@texture.lu">info@texture.lu</a>
-            </p>
-          </div>
+        {/* MAIN Column */}
+        <div className="col-md-8">
+          {/* Subtitle Component*/}
+          <Subtitle text={ props.lang === "fr" ? text.fr_offer01_subtitle : text.de_offer01_subtitle }></Subtitle>
+
+          {/* Points forts components */}
+          <PointForts
+            intro={ props.lang === "fr" ? text.fr_offer01_point_forts_intro : text.de_offer01_point_forts_intro }
+            intro2={ props.lang === "fr" ? text.fr_offer01_point_forts_intro2 : text.de_offer01_point_forts_intro2 }
+            point1={ props.lang === "fr" ? text.fr_offer01_point_forts_point1 : text.de_offer01_point_forts_point1 }
+            point2={ props.lang === "fr" ? text.fr_offer01_point_forts_point2 : text.de_offer01_point_forts_point2 }
+            point3={ props.lang === "fr" ? text.fr_offer01_point_forts_point3 : text.de_offer01_point_forts_point3 }
+          ></PointForts>
+
+          {/* Entretien Component */}
+
+          <Entretien
+            text1={ props.lang === "fr" ? text.fr_offer01_entretien_gratuit : text.de_offer01_entretien_gratuit }
+            numero1={ props.lang === "fr" ? text.fr_offer01_entretien_numero1 : text.de_offer01_entretien_numero1 }
+            numero2={ props.lang === "fr" ? text.fr_offer01_entretien_numero2 : text.de_offer01_entretien_numero2 }
+            mail={ props.lang === "fr" ? text.fr_offer01_entretien_mail : text.de_offer01_entretien_mail }
+          >
+          </Entretien>
+
+          {/* Carousel Component */}
+
+          <Carousel 
+            text={ props.lang === "fr" ? text.fr_offer01_carousel_text : text.de_offer01_carousel_text }
+            logos={logos}
+          ></Carousel>
         </div>
       </div>
     </Main>

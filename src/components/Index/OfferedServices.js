@@ -3,8 +3,8 @@ import SingleOfferedService from './SingleService';
 import {fr_header2_service_01, fr_header2_service_02, de_header2_service_01, de_header2_service_02} from 'static/texts';
 import "./SingleService.scss"
 import "./OfferedServices.scss"
-import image1 from "../../static/traduction.jpg"
-import image2 from "../../static/coaching.jpg"
+import image1 from "../../static/traduction-downsampled.jpg"
+import image2 from "../../static/coaching-downsampled.jpg"
 
 
 class OfferedServices extends Component {

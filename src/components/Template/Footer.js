@@ -33,14 +33,16 @@ class Footer extends Component {
 
   render() {
       return (
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top m-md-3">
           <div className="col-md-4 d-flex align-items-center">
             <span className="mb-3 mb-md-0 text-muted"></span>
           </div>
-          <div className="mb-3 mb-md-0 text-muted col-md-4 text-center">
+          <div className="mb-3 mb-md-0 text-muted col-lg-4 text-center auto-margin">
             <div>© 2022 Texture, sàrl</div>
-            <div>{this.props.lang === "fr" ? "développé par " : "entwickelt von "} <a href='https://www.linkedin.com/in/athillen/'>Alex Thillen</a></div>
+            <div>{this.props.lang === "fr" ? "Tél. " : "Tel"} <a href="tel:+352 691 320 556">+352 691320556</a></div> <div>{this.props.lang === "fr" ? "E-Mail" : "E-Mail"} <a href="mailto:info@texture.lu">info@texture.lu</a></div>
+          </div>
+          <div className="mb-3 mb-md-0 text-muted col-lg-4 text-center auto-margin">
+              {this.props.lang === "fr" ? "développé par " : "entwickelt von "} <a href='https://www.linkedin.com/in/athillen/'>Alex Thillen</a>
           </div>
           
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
