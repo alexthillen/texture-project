@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/texture-project/static/css/main.421f12c2.css",
-    "main.js": "/texture-project/static/js/main.b2fdb1ac.js",
+    "main.css": "/texture-project/static/css/main.89a7ac71.css",
+    "main.js": "/texture-project/static/js/main.d367bff2.js",
     "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
     "static/media/traduction.jpg": "/texture-project/static/media/traduction.9a13246316f6b26af20e.jpg",
-    "static/media/coaching.jpg": "/texture-project/static/media/coaching.8e6950d7046720eab86c.jpg",
+    "static/media/coaching.jpg": "/texture-project/static/media/coaching.5a5f1c7d0983d6bf33a8.jpg",
     "static/media/bg-image4.jpg": "/texture-project/static/media/bg-image4.db9f594a19fa716eca25.jpg",
     "static/media/T-letter.svg": "/texture-project/static/media/T-letter.b2f43c44ef6f602bc319.svg",
     "index.html": "/texture-project/index.html",
-    "main.421f12c2.css.map": "/texture-project/static/css/main.421f12c2.css.map",
-    "main.b2fdb1ac.js.map": "/texture-project/static/js/main.b2fdb1ac.js.map",
+    "main.89a7ac71.css.map": "/texture-project/static/css/main.89a7ac71.css.map",
+    "main.d367bff2.js.map": "/texture-project/static/js/main.d367bff2.js.map",
     "787.a158d550.chunk.js.map": "/texture-project/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.421f12c2.css",
-    "static/js/main.b2fdb1ac.js"
+    "static/css/main.89a7ac71.css",
+    "static/js/main.d367bff2.js"
   ]
 }
