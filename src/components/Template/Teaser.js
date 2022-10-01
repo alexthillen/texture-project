@@ -34,13 +34,17 @@ class Teaser extends Component {
     }
   }
 
+  fontCSS() {
+    return this.props.heading_fr === "Texture" ? "big-font" : "";
+  }
 
   
   render() {
       return (
-        <div className="teaser position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center bg-light box d-flex align-items-center">
-          <div className="align-middle col-md-4 mx-auto my-5">
-            <h1 className={"display-4 fw-normal text-shadow m"}>{this.renderHeading()}</h1>
+        <div className="teaser position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center box d-flex">
+          <div className='bg-teaser '></div>
+          <div className="align-middle col-lg-8 mx-auto my-5 ">
+            <h1 className={"fw-normal text-shadow " + this.fontCSS()}>{this.renderHeading()}</h1>
               {this.renderButton()}
           </div>
           

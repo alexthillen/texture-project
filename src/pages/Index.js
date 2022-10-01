@@ -4,7 +4,6 @@ import IndexBundle from 'components/Index/IndexBundle'
 
 
 export default function Index(props) {
-  console.log("props index " + props);
   return (
     <Main title="Home" description="" 
 // @ts-ignore

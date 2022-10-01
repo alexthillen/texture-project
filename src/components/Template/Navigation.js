@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Navigation.scss"
 
 // import Hamburger from './Hamburger';
 import routes from 'routes/routes';
@@ -8,7 +9,8 @@ import routes from 'routes/routes';
 const Navigation = (props) => {
     return (
       <header id="header">
-        <nav className="px-2 navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="px-2 navbar navbar-expand-lg navbar-light bg-light-dark">
+          <div className='bg-light-dark'></div>
           <div className="container-fluid">
             {routes
               .filter((l) => l.index && l.lang === props.lang)

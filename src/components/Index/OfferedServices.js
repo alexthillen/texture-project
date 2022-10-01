@@ -14,12 +14,12 @@ class OfferedServices extends Component {
     render() {
         return <div className="w-100 h-auto">
             <div className="d-flex row align-items-stretch m-md-1">
-            <SingleOfferedService lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_01 : de_header2_service_01 }>
+            <SingleOfferedService id="1" lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_01 : de_header2_service_01 }>
                 <div className='img1'>
                     <img src={image1} alt="Traduction" className='w-100 h-100 rounded'></img>
                 </div>
             </SingleOfferedService>
-            <SingleOfferedService lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_02 : de_header2_service_02 }>
+            <SingleOfferedService id="2" lang={this.props.lang} heading={this.props.lang === "fr" ? fr_header2_service_02 : de_header2_service_02 }>
             <div className='img1'>
                     <img src={image2} alt="Traduction" className='w-100 h-100 rounded'></img>
                 </div>

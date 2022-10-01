@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./SingleService.scss";
 
 class SingleOfferedService extends Component {
@@ -22,12 +23,13 @@ class SingleOfferedService extends Component {
           <div id="children" className="mb-3">
             {this.props.children}
           </div>
-          <a
-            className={"btn btn-sm btn-outline-secondary mt-auto d-block"}
-            href={this.getOfferPath()}
-          >
-            {this.props.lang === "fr" ? "Plus" : "Mehr"}
-          </a>
+          <Link
+                  className={"btn btn-sm btn-outline-secondary mt-auto d-block"}
+                  key={this.props.id}
+                  to={"/" + this.props.lang + "/" + this.props.id}
+                >
+                  {this.props.lang === "fr" ? "Plus" : "Mehr"}
+          </Link>
         </div>
       </div>
     );
