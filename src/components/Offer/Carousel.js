@@ -28,8 +28,11 @@ export default function Carousel(props) {
         }, []);
 
   return (
-    <div className="carousel mx-2">
-      {generateCarousel(props.logos)}
+    <div>
+      <h6 className='my-3 border-top border-2 pt-2'>{props.text}</h6>
+      <div className="carousel mx-2">
+        {generateCarousel(props.logos)}
+      </div>
     </div>
   )
 }
@@ -42,6 +45,7 @@ export const carouselFunc = () => $(document).ready(function(){
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 8,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
