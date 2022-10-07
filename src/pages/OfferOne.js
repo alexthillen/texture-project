@@ -4,8 +4,7 @@ import React, { useEffect } from "react";
 import * as text from "static/texts";
 //
 
-import logo1 from "../static/logos-clients/logo1.png";
-import logo2 from "../static/logos-clients/logo2.png";
+import logo2 from "../static/logos-clients/conseil/SNJ.png";
 import Subtitle from "components/Offer/Subtitle";
 import PointForts from "components/Offer/PointForts";
 import Entretien from "components/Offer/Entretien";
@@ -17,8 +16,11 @@ import Carousel from "components/Offer/Carousel";
 // import logo7 from "../../static/logos-clients/logo7.png";
 // import logo8 from "../../static/logos-clients/logo8.png";
 
-const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
+// const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
 
+
+const rc = require.context("../static/logos-clients/conseil");
+const logos = rc.keys().map(rc);
 
 export default function OfferOne(props) {
 

@@ -48,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@types/webpack-env": "^1.18.0",
+    "gh-pages": "^4.0.0",
+    "webpack": "^5.74.0"
   }
 }

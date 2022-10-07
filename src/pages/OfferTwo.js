@@ -7,8 +7,7 @@ import Main from 'layout/Main';
 import React from 'react'
 import * as text from "static/texts";
 
-import logo1 from "../static/logos-clients/logo1.png";
-import logo2 from "../static/logos-clients/logo2.png";
+import logo2 from "../static/logos-clients/conseil/SNJ.png";
 // import logo3 from "../../static/logos-clients/logo3.png";
 // import logo4 from "../../static/logos-clients/logo4.png";
 // import logo5 from "../../static/logos-clients/logo5.png";
@@ -16,7 +15,9 @@ import logo2 from "../static/logos-clients/logo2.png";
 // import logo7 from "../../static/logos-clients/logo7.png";
 // import logo8 from "../../static/logos-clients/logo8.png";
 
-const logos = [logo1, logo1, logo2, logo1, logo1, logo1, logo1]
+
+const rc = require.context("../static/logos-clients/traduction");
+const logos = rc.keys().map(rc);
 
 export default function OfferTwo(props) {
   return (

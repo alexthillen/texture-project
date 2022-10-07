@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery'; 
-// import 'react-slick';
-// import 'slick-carousel';
-import 'slick/slick'
-import 'slick/slick.scss'
+import 'react-slick';
+import 'slick-carousel';
 import 'jquery/dist/jquery'
 import './Carousel.scss'
-
-
 
 function generateCarousel(logos) {
     var stack = [];
