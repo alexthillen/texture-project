@@ -77,3 +77,22 @@ export const de_offer02_entretien_mail = "info@texture.lu"
 //
 export const fr_offer02_carousel_text = "Nous travaillons pour :"
 export const de_offer02_carousel_text = "Nous travaillons pour :"
+
+// CONTACT
+
+export const fr_contact_title = "Contact"
+export const de_contact_title = "Kontakt"
+
+// ABOUT
+
+export const fr_about_title = "Sur Nous"
+export const de_about_title = "de_about_title"
+// 
+export const fr_about_subtitle = "Texture sàrl a été créée en février 2021 par Claude Adam et Jeanne Adam"
+export const de_about_subtitle = "de_subtitle"
+//
+export const fr_about_text_jeanne = "Après des études en sciences politiques à Aberdeen et Vienne, Jeanne Adam a travaillé dans le domaine de l’éducation non formelle pour jeunes. Elle a organisé e.a. des événements pour encourager la créativité et géré des outils d’orientation professionnelle. Depuis 2015, elle travaille comme rédactrice, traductrice (FR → DE/LU) et enseignante indépendante pour des clients du domaine de l’éducation et au-delà. "
+export const de_about_text_jeanne = "de_about_text_jeanne"
+//
+export const fr_about_text_claude = "Pendant vingt ans, Claude Adam a travaillé comme enseignant dans l’enseignement primaire, puis deux ans comme inspecteur de l’école fondamentale. De 2004 à 2018, il était membre de la Chambre des députés luxembourgeoise. Il était responsable pour son parti déi gréng e.a. pour les volets enseignement, enseignement supérieur et recherche. De 2018 à 2020 il a travaillé comme enseignant détaché à l’Université du Luxembourg (formation initiale des enseignants du fondamental). "
+export const de_about_text_claude = "de_about_text_claude"
