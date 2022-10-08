@@ -17,7 +17,7 @@ export default function Profile(props) {
           <div className="col-xl-12 text-center">
             <div className="pt-2">
               <h5 className="mt-4 font-weight-medium mb-0">{props.name}</h5>
-              <h6 className="subtitle mb-3">Placeholder</h6>
+              <p><em className="mb-3">Placeholder</em></p>
               <p>
                 {props.text_main}
               </p>
