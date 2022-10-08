@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/texture-project/static/css/main.77006bb0.css",
-    "main.js": "/texture-project/static/js/main.1c20e0d1.js",
+    "main.js": "/texture-project/static/js/main.ab471e86.js",
     "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
     "static/media/traduction-downsampled.jpg": "/texture-project/static/media/traduction-downsampled.cd58b1bb06ddaf4e4a1d.jpg",
     "static/media/Lentgen.png": "/texture-project/static/media/Lentgen.eafeb0c4e618a083a283.png",
@@ -24,11 +24,11 @@
     "static/media/T-letter.svg": "/texture-project/static/media/T-letter.b2f43c44ef6f602bc319.svg",
     "index.html": "/texture-project/index.html",
     "main.77006bb0.css.map": "/texture-project/static/css/main.77006bb0.css.map",
-    "main.1c20e0d1.js.map": "/texture-project/static/js/main.1c20e0d1.js.map",
+    "main.ab471e86.js.map": "/texture-project/static/js/main.ab471e86.js.map",
     "787.a158d550.chunk.js.map": "/texture-project/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77006bb0.css",
-    "static/js/main.1c20e0d1.js"
+    "static/js/main.ab471e86.js"
   ]
 }
