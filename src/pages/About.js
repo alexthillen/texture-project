@@ -29,7 +29,7 @@ export default function About(props) {
         button_ref=""
       ></Teaser>
 
-      <div id="offer-one-main" className="d-flex bg-light p-5 m-xl-2">
+      <div id="offer-one-main" className="d-flex bg-light p-5 m-xl-3">
         {/* <div className="col-xl-2"></div> */}
         {/* MAIN Column */}
         <div className="col-xl-12">
@@ -40,10 +40,7 @@ export default function About(props) {
             <Profile text_main={props.lang === "fr" ? text.fr_about_text_jeanne : text.de_about_text_jeanne} name="Jeanne Adam" linkedin={"https://www.linkedin.com/in/jeanne-a-85988643/"} profile_picture={profile2}></Profile>
           </div>
         </div>
-
       </div>
-
-
     </Main>
   );
 }
