@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/texture-project/static/css/main.77006bb0.css",
-    "main.js": "/texture-project/static/js/main.cea4cf78.js",
+    "main.css": "/texture-project/static/css/main.8e107399.css",
+    "main.js": "/texture-project/static/js/main.e461d73d.js",
     "static/js/787.a158d550.chunk.js": "/texture-project/static/js/787.a158d550.chunk.js",
     "static/media/traduction-downsampled.jpg": "/texture-project/static/media/traduction-downsampled.cd58b1bb06ddaf4e4a1d.jpg",
     "static/media/Lentgen.png": "/texture-project/static/media/Lentgen.eafeb0c4e618a083a283.png",
@@ -10,25 +10,25 @@
     "static/media/Schieren.png": "/texture-project/static/media/Schieren.f68c1c5694f3dd05d3ef.png",
     "static/media/FGFC.png": "/texture-project/static/media/FGFC.bcb46e5a53b93c23dd84.png",
     "static/media/bg-image4.jpg": "/texture-project/static/media/bg-image4.db9f594a19fa716eca25.jpg",
+    "static/media/profile_jeanne.jpg": "/texture-project/static/media/profile_jeanne.0e240e935c707336d40c.jpg",
     "static/media/Miersch logo.png": "/texture-project/static/media/Miersch logo.5cb937930aae4f8a2bb3.png",
     "static/media/woxx.png": "/texture-project/static/media/woxx.dcf85c6beacf903cdc04.png",
-    "static/media/profile_jeanne.jpg": "/texture-project/static/media/profile_jeanne.a0693b4383cc7fc42fd8.jpg",
-    "static/media/profile_claude.jpg": "/texture-project/static/media/profile_claude.8f6a63bbd05ac2a3e14b.jpg",
+    "static/media/profile_claude.jpg": "/texture-project/static/media/profile_claude.c1188b6b8078ff6b9c5f.jpg",
     "static/media/capybarabooks.png": "/texture-project/static/media/capybarabooks.bd9258ec8822f84593bd.png",
     "static/media/SNJ.png": "/texture-project/static/media/SNJ.a1123ca0ab4d5aa2ade4.png",
-    "static/media/Kielen.png": "/texture-project/static/media/Kielen.8d17a3173873c50bd87f.png",
+    "static/media/UNI_lu.png": "/texture-project/static/media/UNI_lu.ebb93d21b8e98438e1e6.png",
     "static/media/slick.svg": "/texture-project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/texture-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/texture-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/texture-project/static/media/slick.295183786cd8a1389865.woff",
     "static/media/T-letter.svg": "/texture-project/static/media/T-letter.b2f43c44ef6f602bc319.svg",
     "index.html": "/texture-project/index.html",
-    "main.77006bb0.css.map": "/texture-project/static/css/main.77006bb0.css.map",
-    "main.cea4cf78.js.map": "/texture-project/static/js/main.cea4cf78.js.map",
+    "main.8e107399.css.map": "/texture-project/static/css/main.8e107399.css.map",
+    "main.e461d73d.js.map": "/texture-project/static/js/main.e461d73d.js.map",
     "787.a158d550.chunk.js.map": "/texture-project/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77006bb0.css",
-    "static/js/main.cea4cf78.js"
+    "static/css/main.8e107399.css",
+    "static/js/main.e461d73d.js"
   ]
 }
