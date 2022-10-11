@@ -17,7 +17,7 @@ export default function Profile(props) {
           <div className="col-xl-12 text-center">
             <div className="pt-2">
               <h5 className="mt-4 font-weight-medium mb-0">{props.name}</h5>
-              <p>
+              <p className="mt-4">
                 {props.text_main}
               </p>
               <ul className="list-inline mt-auto">
