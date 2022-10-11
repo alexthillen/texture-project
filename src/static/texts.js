@@ -33,7 +33,7 @@ export const de_offer01_point_forts_point2 = "de_offer01_point_forts_point2"
 export const fr_offer01_point_forts_point3 = "Précision : Tout travail de texte demande une certaine rigueur. Notre but est de vous fournir des textes facilement lisibles, compréhensibles et d’une qualité linguistique impeccable."
 export const de_offer01_point_forts_point3 = "de_offer01_point_forts_point3"
 //
-export const fr_offer01_entretien_gratuit = "Texture vous propose un entretien gratuit pour évaluer vos besoins. Demandez-nous un devis."
+export const fr_offer01_entretien_gratuit = "Texture vous propose un entretien gratuit pour évaluer vos besoins. Contactez-nous par e-mail ou par téléphone."
 export const de_offer01_entretien_gratuit = "de_offer01_entretien_gratuit"
 export const fr_offer01_entretien_numero1 = "+352 691320556"
 export const de_offer01_entretien_numero1 = "+352 691320556"
@@ -91,7 +91,7 @@ export const de_about_title = "de_about_title"
 export const fr_about_subtitle = "Texture sàrl a été créée en février 2021 par Claude Adam et Jeanne Adam"
 export const de_about_subtitle = "de_subtitle"
 //
-export const fr_about_text_jeanne = "Après des études en sciences politiques à Aberdeen et Vienne, Jeanne Adam a travaillé dans le domaine de l’éducation non formelle pour jeunes. Elle a organisé e.a. des événements pour encourager la créativité et géré des outils d’orientation professionnelle. Depuis 2015, elle travaille comme rédactrice, traductrice (FR → DE/LU) et enseignante indépendante pour des clients du domaine de l’éducation et au-delà. "
+export const fr_about_text_jeanne = "Après des études en sciences politiques à Aberdeen et Vienne, Jeanne Adam a travaillé dans le domaine de l’éducation non formelle pour jeunes. Elle a organisé e.a. des événements pour encourager la créativité et géré des outils d’orientation professionnelle. Depuis 2015, elle travaille comme rédactrice, traductrice (staatlich geprüfte Übersetzerin, Baden-Württemberg) et enseignante indépendante pour des clients du domaine de l’éducation et au-delà. "
 export const de_about_text_jeanne = "de_about_text_jeanne"
 //
 export const fr_about_text_claude = "Pendant vingt ans, Claude Adam a travaillé comme enseignant dans l’enseignement primaire, puis deux ans comme inspecteur de l’école fondamentale. De 2004 à 2018, il était membre de la Chambre des députés luxembourgeoise. Il était responsable pour son parti déi gréng e.a. pour les volets enseignement, enseignement supérieur et recherche. De 2018 à 2020 il a travaillé comme enseignant détaché à l’Université du Luxembourg (formation initiale des enseignants du fondamental). "

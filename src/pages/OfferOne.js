@@ -19,7 +19,7 @@ import Carousel from "components/Offer/Carousel";
 // const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
 
 
-const rc = require.context("../static/logos-clients/conseil");
+const rc = require.context("../static/logos-clients/traduction");
 const logos = rc.keys().map(rc);
 
 export default function OfferOne(props) {

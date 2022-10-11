@@ -8,7 +8,7 @@ import React from 'react'
 import * as text from "static/texts";
 
 
-const rc = require.context("../static/logos-clients/traduction");
+const rc = require.context("../static/logos-clients/conseil");
 const logos = rc.keys().map(rc);
 
 export default function OfferTwo(props) {
