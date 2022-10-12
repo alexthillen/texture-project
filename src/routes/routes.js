@@ -11,18 +11,18 @@ const routes = [
       lang: "fr",
       path: '/fr/',
     },
-    { 
-        index: false,
-        label: 'Kontakt',
-        lang: "de",
-        path: '/de/contact/',
-      },
-      {
-      index: false,
-        label: 'Contact',
-        lang: "fr",
-        path: '/fr/contact/',
-      },
+    // { 
+    //     index: false,
+    //     label: 'Kontakt',
+    //     lang: "de",
+    //     path: '/de/contact/',
+    //   },
+    //   {
+    //   index: false,
+    //     label: 'Contact',
+    //     lang: "fr",
+    //     path: '/fr/contact/',
+    //   },
       { 
         index: false,
         label: 'Über uns',
