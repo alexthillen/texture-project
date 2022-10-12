@@ -5,7 +5,7 @@ import "./Profile.scss"
 
 export default function Profile(props) {
   return (
-      <div id="Profile" className="col-xl-5 mt-0 m-auto">
+      <div id="Profile" className="col-xl-5 mt-3 m-auto">
         <div className="col">
           <div className="col-xl-12 m-auto">
             <img

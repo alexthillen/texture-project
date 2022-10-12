@@ -17,10 +17,10 @@ export const de_header2_service_02 = "de_header2_service_02";
 export const fr_offer01_title = "Traduction, correction, rédaction"
 export const de_offer01_title = "de_offer01_title"
 //
-export const fr_offer01_subtitle = "Nous rédigeons, corrigeons, traduisons et affinons vos textes (allemand, français, anglais, luxembourgeois) avec compétence et efficacité."
+export const fr_offer01_subtitle = "Texture vous propose son expertise dans le domaine rédactionnel."
 export const de_offer01_subtitle = "de_offer01_subtitle"
 //
-export const fr_offer01_point_forts_intro = "Texture vous propose son expertise dans le domaine rédactionnel."
+export const fr_offer01_point_forts_intro = "Nous rédigeons, corrigeons, traduisons et affinons vos textes (allemand, français, anglais, luxembourgeois) avec compétence et efficacité."
 export const de_offer01_point_forts_intro = "de_offer01_point_forts_intro"
 //
 export const fr_offer01_point_forts_intro2 = "Nos points forts :"
@@ -50,10 +50,10 @@ export const de_offer01_carousel_text = "Nous travaillons pour :"
 export const fr_offer02_title = "Conseil, coaching, gestion de projet"
 export const de_offer02_title = "de_offer02_title"
 //
-export const fr_offer02_subtitle = "Dans les domaines de l’éducation, de l'enseignement et de l’enseignement supérieur, nous accompagnons vos projets de l’idée initiale à la réalisation finale."
+export const fr_offer02_subtitle = "Texture met son expertise à votre disposition pour mener à bien vos projets pédagogiques."
 export const de_offer02_subtitle = "de_offer02_subtitle"
 //
-export const fr_offer02_point_forts_intro = "Texture met son expertise à votre disposition pour mener à bien vos projets pédagogiques."
+export const fr_offer02_point_forts_intro = "Dans les domaines de l’éducation, de l'enseignement et de l’enseignement supérieur, nous accompagnons vos projets de l’idée initiale à la réalisation finale."
 export const de_offer02_point_forts_intro = "de_offer02_point_forts_intro"
 //
 export const fr_offer02_point_forts_intro2 = "Nos points forts :"
@@ -88,8 +88,8 @@ export const de_contact_title = "Kontakt"
 export const fr_about_title = "Sur Nous"
 export const de_about_title = "de_about_title"
 // 
-export const fr_about_subtitle = "Texture sàrl a été créée en février 2021 par Claude Adam et Jeanne Adam"
-export const de_about_subtitle = "de_subtitle"
+export const fr_about_subtitle = ""
+export const de_about_subtitle = ""
 //
 export const fr_about_text_jeanne = "Après des études en sciences politiques à Aberdeen et Vienne, Jeanne Adam a travaillé dans le domaine de l’éducation non formelle pour jeunes. Elle a organisé e.a. des événements pour encourager la créativité et géré des outils d’orientation professionnelle. Depuis 2015, elle travaille comme rédactrice, traductrice (staatlich geprüfte Übersetzerin, Baden-Württemberg) et enseignante indépendante pour des clients du domaine de l’éducation et au-delà. "
 export const de_about_text_jeanne = "de_about_text_jeanne"
