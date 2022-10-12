@@ -27,7 +27,7 @@ export default function OfferOne(props) {
 
   return (
     <Main
-      title="Home"
+      title="1"
       description=""
       // @ts-ignore
       lang={props.lang}

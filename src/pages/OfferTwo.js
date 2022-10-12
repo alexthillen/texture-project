@@ -14,7 +14,7 @@ const logos = rc.keys().map(rc);
 export default function OfferTwo(props) {
   return (
     <Main
-      title="Home"
+      title="2"
       description=""
       // @ts-ignore
       lang={props.lang}

@@ -12,7 +12,7 @@ import profile2 from "../static/profile_pictures/profile_jeanne.jpg";
 export default function About(props) {
   return (
     <Main
-      title="Home"
+      title="About"
       description=""
       // @ts-ignore
       lang={props.lang}
