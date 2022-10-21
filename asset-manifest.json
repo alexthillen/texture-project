@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca56cb64.css",
-    "main.js": "/static/js/main.f7eb416e.js",
+    "main.css": "/static/css/main.461440af.css",
+    "main.js": "/static/js/main.a03ac6e4.js",
     "static/js/787.a158d550.chunk.js": "/static/js/787.a158d550.chunk.js",
     "static/media/traduction-downsampled.jpg": "/static/media/traduction-downsampled.cd58b1bb06ddaf4e4a1d.jpg",
     "static/media/Lentgen.png": "/static/media/Lentgen.eafeb0c4e618a083a283.png",
@@ -14,7 +14,7 @@
     "static/media/Miersch logo.png": "/static/media/Miersch logo.5cb937930aae4f8a2bb3.png",
     "static/media/woxx.png": "/static/media/woxx.dcf85c6beacf903cdc04.png",
     "static/media/profile_claude.jpg": "/static/media/profile_claude.c1188b6b8078ff6b9c5f.jpg",
-    "static/media/capybarabooks.png": "/static/media/capybarabooks.bd9258ec8822f84593bd.png",
+    "static/media/01_capybarabooks.png": "/static/media/01_capybarabooks.bd9258ec8822f84593bd.png",
     "static/media/SNJ.png": "/static/media/SNJ.a1123ca0ab4d5aa2ade4.png",
     "static/media/UNI_lu.png": "/static/media/UNI_lu.ebb93d21b8e98438e1e6.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -23,12 +23,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/T-letter.svg": "/static/media/T-letter.b2f43c44ef6f602bc319.svg",
     "index.html": "/index.html",
-    "main.ca56cb64.css.map": "/static/css/main.ca56cb64.css.map",
-    "main.f7eb416e.js.map": "/static/js/main.f7eb416e.js.map",
+    "main.461440af.css.map": "/static/css/main.461440af.css.map",
+    "main.a03ac6e4.js.map": "/static/js/main.a03ac6e4.js.map",
     "787.a158d550.chunk.js.map": "/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca56cb64.css",
-    "static/js/main.f7eb416e.js"
+    "static/css/main.461440af.css",
+    "static/js/main.a03ac6e4.js"
   ]
 }
