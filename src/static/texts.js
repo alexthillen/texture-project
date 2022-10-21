@@ -62,12 +62,12 @@ export const de_offer02_title = "Beratung, Coaching, Projektmanagement";
 //
 export const fr_offer02_subtitle =
     "Texture met son expertise à votre disposition pour mener à bien vos projets pédagogiques.";
-export const de_offer02_subtitle = "de_offer02_subtitle";
+export const de_offer02_subtitle = "Texture bietet Ihnen Beratung und Unterstützung für Ihr pädagogisches Projekt.";
 //
 export const fr_offer02_point_forts_intro =
     "Dans les domaines de l’éducation, de l'enseignement et de l’enseignement supérieur, nous accompagnons vos projets de l’idée initiale à la réalisation finale.";
 export const de_offer02_point_forts_intro =
-    "Texture bietet Ihnen Beratung und Unterstützung für Ihr pädagogisches Projekt. Wir begleiten Sie von der Ideenfindung bis zur Umsetzung Ihres Projekts in den Bereichen Erziehung, Bildung und Hochschulbildung.";
+    "Wir begleiten Sie von der Ideenfindung bis zur Umsetzung Ihres Projekts in den Bereichen Erziehung, Bildung und Hochschulbildung.";
 //
 export const fr_offer02_point_forts_intro2 = "Nos points forts :";
 export const de_offer02_point_forts_intro2 = "Unsere Stärken:";
