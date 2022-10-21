@@ -107,7 +107,7 @@ export const de_contact_title = "Kontakt";
 // ABOUT
 
 export const fr_about_title = "Sur Nous";
-export const de_about_title = "Über uns:";
+export const de_about_title = "Über uns";
 //
 export const fr_about_subtitle = "";
 export const de_about_subtitle = "";
