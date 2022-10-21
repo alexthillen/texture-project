@@ -3,7 +3,7 @@ import React from "react";
 export default function PointForts(props) {
   return (
     <div id="point-forts">
-      <div className="border-top border-2 text-center p-5 text-center">
+      <div className="border-top border-2 text-center p-3 text-center">
         <p>{props.intro}</p>
       </div>
       <div>

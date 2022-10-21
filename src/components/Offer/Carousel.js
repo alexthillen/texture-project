@@ -9,7 +9,7 @@ function generateCarousel(logos) {
     var stack = [];
     for (var logo in logos) {
         stack.push(
-        <div key={logo} className="slide height">
+        <div key={logo} className="slide height py-auto">
             <img className="imgAdjust" src={logos[logo]} alt="" />
         </div>);
     }
@@ -37,14 +37,14 @@ export default function Carousel(props) {
 export const carouselFunc = () => $(document).ready(function(){
   $('.carousel').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 8,
+    slidesToScroll: 4,
     autoplay: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1224,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -53,7 +53,7 @@ export const carouselFunc = () => $(document).ready(function(){
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2

@@ -9,18 +9,27 @@
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10;
 }
 
 .slick-slider {
 	display: table !important;
 	table-layout: fixed !important;
 	width: 100% !important;
+    margin : auto;
+    padding : auto;
 }
 
+.slick-slide {
+    padding : auto;
+}
+
+.slick-track { 
+    display:flex!important;
+    align-items: center; 
+}
 
 // // To modify size, goto --> .slick-slide img
-
-
 
 
 // // ========================

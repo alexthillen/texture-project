@@ -18,13 +18,10 @@ import Carousel from "components/Offer/Carousel";
 
 // const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
 
-
 const rc = require.context("../static/logos-clients/traduction");
 const logos = rc.keys().map(rc);
 
 export default function OfferOne(props) {
-
-
   return (
     <Main
       title="1"
@@ -49,31 +46,76 @@ export default function OfferOne(props) {
         {/* MAIN Column */}
         <div className="col-md-8">
           {/* Subtitle Component*/}
-          <Subtitle text={ props.lang === "fr" ? text.fr_offer01_subtitle : text.de_offer01_subtitle }></Subtitle>
+          <Subtitle
+            text={
+              props.lang === "fr"
+              ? text.fr_offer01_subtitle
+              : text.de_offer01_subtitle
+            }
+            intro={
+              props.lang === "fr"
+                ? text.fr_offer01_point_forts_intro
+                : text.de_offer01_point_forts_intro
+            }
+          ></Subtitle>
 
           {/* Points forts components */}
           <PointForts
-            intro={ props.lang === "fr" ? text.fr_offer01_point_forts_intro : text.de_offer01_point_forts_intro }
-            intro2={ props.lang === "fr" ? text.fr_offer01_point_forts_intro2 : text.de_offer01_point_forts_intro2 }
-            point1={ props.lang === "fr" ? text.fr_offer01_point_forts_point1 : text.de_offer01_point_forts_point1 }
-            point2={ props.lang === "fr" ? text.fr_offer01_point_forts_point2 : text.de_offer01_point_forts_point2 }
-            point3={ props.lang === "fr" ? text.fr_offer01_point_forts_point3 : text.de_offer01_point_forts_point3 }
+            intro2={
+              props.lang === "fr"
+                ? text.fr_offer01_point_forts_intro2
+                : text.de_offer01_point_forts_intro2
+            }
+            point1={
+              props.lang === "fr"
+                ? text.fr_offer01_point_forts_point1
+                : text.de_offer01_point_forts_point1
+            }
+            point2={
+              props.lang === "fr"
+                ? text.fr_offer01_point_forts_point2
+                : text.de_offer01_point_forts_point2
+            }
+            point3={
+              props.lang === "fr"
+                ? text.fr_offer01_point_forts_point3
+                : text.de_offer01_point_forts_point3
+            }
           ></PointForts>
 
           {/* Entretien Component */}
 
           <Entretien
-            text1={ props.lang === "fr" ? text.fr_offer01_entretien_gratuit : text.de_offer01_entretien_gratuit }
-            numero1={ props.lang === "fr" ? text.fr_offer01_entretien_numero1 : text.de_offer01_entretien_numero1 }
-            numero2={ props.lang === "fr" ? text.fr_offer01_entretien_numero2 : text.de_offer01_entretien_numero2 }
-            mail={ props.lang === "fr" ? text.fr_offer01_entretien_mail : text.de_offer01_entretien_mail }
-          >
-          </Entretien>
+            text1={
+              props.lang === "fr"
+                ? text.fr_offer01_entretien_gratuit
+                : text.de_offer01_entretien_gratuit
+            }
+            numero1={
+              props.lang === "fr"
+                ? text.fr_offer01_entretien_numero1
+                : text.de_offer01_entretien_numero1
+            }
+            numero2={
+              props.lang === "fr"
+                ? text.fr_offer01_entretien_numero2
+                : text.de_offer01_entretien_numero2
+            }
+            mail={
+              props.lang === "fr"
+                ? text.fr_offer01_entretien_mail
+                : text.de_offer01_entretien_mail
+            }
+          ></Entretien>
 
           {/* Carousel Component */}
 
-          <Carousel 
-            text={ props.lang === "fr" ? text.fr_offer01_carousel_text : text.de_offer01_carousel_text }
+          <Carousel
+            text={
+              props.lang === "fr"
+                ? text.fr_offer01_carousel_text
+                : text.de_offer01_carousel_text
+            }
             logos={logos}
           ></Carousel>
         </div>
