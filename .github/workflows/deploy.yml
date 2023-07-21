@@ -1,7 +1,7 @@
 name: deploy to github pages at 'texture.lu'
 
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   deploy:
