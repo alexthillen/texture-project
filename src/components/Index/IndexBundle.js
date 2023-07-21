@@ -24,4 +24,5 @@ class IndexBundle extends Component {
      }
 }
 
+
 export default IndexBundle;

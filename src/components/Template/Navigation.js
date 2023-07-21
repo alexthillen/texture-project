@@ -54,6 +54,7 @@ const Navigation = (props) => {
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 {/* Language Selection */}
                 <li className="nav-item dropdown">
+                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
                     className="nav-link dropdown-toggle"
                     href=""

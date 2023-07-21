@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import "./SingleService.scss";
 
 class SingleOfferedService extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   getOfferPath() {
     let nr = parseInt(this.props.id, 10) + 1;
@@ -24,11 +21,11 @@ class SingleOfferedService extends Component {
             {this.props.children}
           </div>
           <Link
-                  className={"btn btn-sm btn-outline-secondary mt-auto d-block"}
-                  key={this.props.id}
-                  to={"/" + this.props.lang + "/" + this.props.id}
-                >
-                  {this.props.lang === "fr" ? "Plus" : "Mehr"}
+            className={"btn btn-sm btn-outline-secondary mt-auto d-block"}
+            key={this.props.id}
+            to={"/" + this.props.lang + "/" + this.props.id}
+          >
+            {this.props.lang === "fr" ? "Plus" : "Mehr"}
           </Link>
         </div>
       </div>
