@@ -11,20 +11,25 @@ import Footer from '../components/Template/Footer';
 // import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Main = (props) => (
-  <div>
+  <>
     <Helmet titleTemplate="%s | Texture" defaultTitle="Texture" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
-    <div id="wrapper">
-      <Navigation lang={props.lang}/>
-      <main id="main">
-        
-        {props.children}
-      </main>
-      <Footer lang={props.lang}></Footer>
+    <div className="d-flex flex-column" id="wrapper" style={{ minHeight: "100vh" }}>
+      <div>
+        <Navigation lang={props.lang} />
+      </div>
+      <div>
+        <main id="main">
+          {props.children}
+        </main>
+      </div>
+      <div className='mt-auto'>
+        <Footer lang={props.lang}></Footer>
+      </div>
     </div>
-  </div>
+  </>
 );
 
 Main.propTypes = {

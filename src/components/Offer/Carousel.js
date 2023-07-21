@@ -1,27 +1,27 @@
 import React, { useEffect } from 'react'
-import $ from 'jquery'; 
+import $ from 'jquery';
 import 'react-slick';
 import 'slick-carousel';
 import 'jquery/dist/jquery'
 import './Carousel.scss'
 
 function generateCarousel(logos) {
-    var stack = [];
-    for (var logo in logos) {
-        stack.push(
-        <div key={logo} className="slide height py-auto">
-            <img className="imgAdjust" src={logos[logo]} alt="" />
-        </div>);
-    }
-    return stack;
+  var stack = [];
+  for (var logo in logos) {
+    stack.push(
+      <div key={logo} className="slide height py-auto mb-4 mt-2">
+        <img className="imgAdjust" src={logos[logo]} alt="" />
+      </div>);
+  }
+  return stack;
 }
 
 export default function Carousel(props) {
 
-    useEffect(() => {
-        // Update the document title using the browser API
-        carouselFunc();
-        }, []);
+  useEffect(() => {
+    // Update the document title using the browser API
+    carouselFunc();
+  }, []);
 
   return (
     <div>
@@ -34,7 +34,7 @@ export default function Carousel(props) {
 }
 
 
-export const carouselFunc = () => $(document).ready(function(){
+export const carouselFunc = () => $(document).ready(function () {
   $('.carousel').slick({
     dots: true,
     infinite: true,
@@ -69,4 +69,4 @@ export const carouselFunc = () => $(document).ready(function(){
 
     ]
   });
-  });
+});
