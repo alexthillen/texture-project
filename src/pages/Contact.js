@@ -23,9 +23,6 @@ export default function Contact(props) {
         button_de=""
         button_ref=""
       ></Teaser>
-
-
-
     </Main>
   );
 }

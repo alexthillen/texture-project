@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.scss";
 import * as text from "static/texts";
+import textureLogo from "static/logos/TEXTURE_LOGO_WEB_BIG_CROPPED_NO_BG.png";
 
 // import Hamburger from './Hamburger';
 import routes from "routes/routes";
@@ -13,6 +14,15 @@ const Navigation = (props) => {
       <nav className="px-2 navbar navbar-expand-lg navbar-light bg-light-dark">
         <div className="bg-light-dark"></div>
         <div className="container-fluid">
+          <div className="navbar-brand">
+            <Link to={"/" + props.lang + "/"} className="navbar-brand">
+              <img
+                src={textureLogo}
+                alt="Texture Logo"
+                className="img-fluid"
+              />
+            </Link>
+          </div>
           {routes
             .filter((l) => l.index && l.lang === props.lang)
             .map((l) => (
@@ -51,9 +61,9 @@ const Navigation = (props) => {
             </ul>
 
             {text.language_toggle_enabled ? (
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-inline" >
                 {/* Language Selection */}
-                <li className="nav-item dropdown">
+                <li className="nav-item dropdown d-inline">
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
                     className="nav-link dropdown-toggle"
@@ -67,6 +77,8 @@ const Navigation = (props) => {
                   </a>
                   <ul
                     className="dropdown-menu"
+                    // @ts-ignore
+                    style={{ "--bs-dropdown-min-width": "0rem" }}
                     aria-labelledby="navbarDropdown"
                   >
                     <li className="">

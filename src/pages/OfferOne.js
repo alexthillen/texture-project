@@ -33,7 +33,7 @@ export default function OfferOne(props) {
         button_ref=""
       ></Teaser>
 
-      <div id="offer-one-main" className="d-flex bg-light p-5 m-md-3">
+      <div id="offer-one-main" className="d-flex bg-light p-5 mx-md-3">
         <div className="col-md-2"></div>
         {/* MAIN Column */}
         <div className="col-md-8">
