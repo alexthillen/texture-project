@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.93ac8ddd.css",
-    "main.js": "/static/js/main.0d6028ec.js",
+    "main.css": "/static/css/main.5ac9d819.css",
+    "main.js": "/static/js/main.b8c0d42b.js",
     "static/js/787.a158d550.chunk.js": "/static/js/787.a158d550.chunk.js",
     "static/media/traduction-downsampled.jpg": "/static/media/traduction-downsampled.cd58b1bb06ddaf4e4a1d.jpg",
     "static/media/Lentgen.png": "/static/media/Lentgen.eafeb0c4e618a083a283.png",
     "static/media/FSHCL.png": "/static/media/FSHCL.eda7baf701a0939d8d5c.png",
     "static/media/coaching-downsampled.jpg": "/static/media/coaching-downsampled.d4981a0c8d49f16ecc4f.jpg",
     "static/media/Schieren.png": "/static/media/Schieren.f68c1c5694f3dd05d3ef.png",
+    "static/media/TEXTURE_LOGO_WEB_BIG_NO_BG.png": "/static/media/TEXTURE_LOGO_WEB_BIG_NO_BG.7c7414bb0892d820f657.png",
     "static/media/FGFC.png": "/static/media/FGFC.bcb46e5a53b93c23dd84.png",
     "static/media/bg-image4.jpg": "/static/media/bg-image4.db9f594a19fa716eca25.jpg",
     "static/media/profile_jeanne.jpg": "/static/media/profile_jeanne.0e240e935c707336d40c.jpg",
     "static/media/Miersch logo.png": "/static/media/Miersch logo.5cb937930aae4f8a2bb3.png",
     "static/media/woxx.png": "/static/media/woxx.dcf85c6beacf903cdc04.png",
     "static/media/profile_claude.jpg": "/static/media/profile_claude.c1188b6b8078ff6b9c5f.jpg",
+    "static/media/TEXTURE_LOGO_WEB_BIG_CROPPED_NO_BG.png": "/static/media/TEXTURE_LOGO_WEB_BIG_CROPPED_NO_BG.dbc9f7e8b0f5cd34ed37.png",
     "static/media/arcus.png": "/static/media/arcus.521a92616ab83c107a63.png",
     "static/media/01_capybarabooks.png": "/static/media/01_capybarabooks.bd9258ec8822f84593bd.png",
     "static/media/ALL_logo complet_CMJN.png": "/static/media/ALL_logo complet_CMJN.4817f7253fc8a0a63e72.png",
@@ -27,12 +29,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/T-letter.svg": "/static/media/T-letter.b0b95c54801aa5ed118d.svg",
     "index.html": "/index.html",
-    "main.93ac8ddd.css.map": "/static/css/main.93ac8ddd.css.map",
-    "main.0d6028ec.js.map": "/static/js/main.0d6028ec.js.map",
+    "main.5ac9d819.css.map": "/static/css/main.5ac9d819.css.map",
+    "main.b8c0d42b.js.map": "/static/js/main.b8c0d42b.js.map",
     "787.a158d550.chunk.js.map": "/static/js/787.a158d550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93ac8ddd.css",
-    "static/js/main.0d6028ec.js"
+    "static/css/main.5ac9d819.css",
+    "static/js/main.b8c0d42b.js"
   ]
 }
