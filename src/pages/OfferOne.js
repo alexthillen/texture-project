@@ -1,22 +1,14 @@
 import Teaser from "components/Template/Teaser";
 import Main from "layout/Main";
-import React, { useEffect } from "react";
+import React from "react";
 import * as text from "static/texts";
 //
 
-import logo2 from "../static/logos-clients/conseil/SNJ.png";
 import Subtitle from "components/Offer/Subtitle";
 import PointForts from "components/Offer/PointForts";
 import Entretien from "components/Offer/Entretien";
 import Carousel from "components/Offer/Carousel";
-// import logo3 from "../../static/logos-clients/logo3.png";
-// import logo4 from "../../static/logos-clients/logo4.png";
-// import logo5 from "../../static/logos-clients/logo5.png";
-// import logo6 from "../../static/logos-clients/logo6.png";
-// import logo7 from "../../static/logos-clients/logo7.png";
-// import logo8 from "../../static/logos-clients/logo8.png";
 
-// const logos = [logo2, logo2, logo2, logo2, logo2, logo2, logo2]
 
 const rc = require.context("../static/logos-clients/traduction");
 const logos = rc.keys().map(rc);
@@ -41,7 +33,7 @@ export default function OfferOne(props) {
         button_ref=""
       ></Teaser>
 
-      <div id="offer-one-main" className="d-flex bg-light p-5 m-md-3">
+      <div id="offer-one-main" className="d-flex bg-light p-5 mx-md-3">
         <div className="col-md-2"></div>
         {/* MAIN Column */}
         <div className="col-md-8">
@@ -49,8 +41,8 @@ export default function OfferOne(props) {
           <Subtitle
             text={
               props.lang === "fr"
-              ? text.fr_offer01_subtitle
-              : text.de_offer01_subtitle
+                ? text.fr_offer01_subtitle
+                : text.de_offer01_subtitle
             }
             intro={
               props.lang === "fr"

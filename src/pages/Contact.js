@@ -1,4 +1,3 @@
-import Subtitle from 'components/Offer/Subtitle';
 import Teaser from 'components/Template/Teaser';
 import Main from 'layout/Main'
 import React from 'react'
@@ -24,9 +23,6 @@ export default function Contact(props) {
         button_de=""
         button_ref=""
       ></Teaser>
-
-    
-
     </Main>
   );
 }
